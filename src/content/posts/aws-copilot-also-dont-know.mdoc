@@ -1,0 +1,14 @@
+---
+title: AWS Copilot also dont know
+---
+Based&nbsp;on&nbsp;the&nbsp;code&nbsp;sample,&nbsp;keystatic&nbsp;CMS&nbsp;refers&nbsp;to&nbsp;accessing&nbsp;system&nbsp;management&nbsp;controller&nbsp;(SMC)&nbsp;sensor&nbsp;keys&nbsp;statically&nbsp;in&nbsp;code.
+
+The&nbsp;SMC&nbsp;is&nbsp;a&nbsp;chip&nbsp;that&nbsp;monitors&nbsp;hardware&nbsp;like&nbsp;temperatures&nbsp;and&nbsp;manages&nbsp;power/sleep&nbsp;functions&nbsp;on&nbsp;Mac&nbsp;computers.&nbsp;It&nbsp;stores&nbsp;sensor&nbsp;readings&nbsp;from&nbsp;components&nbsp;under&nbsp;various&nbsp;"keys".
+
+Developers&nbsp;can&nbsp;read&nbsp;these&nbsp;sensor&nbsp;keys&nbsp;programmatically&nbsp;to&nbsp;monitor&nbsp;system&nbsp;health&nbsp;and&nbsp;debug&nbsp;issues.&nbsp;Normally&nbsp;this&nbsp;is&nbsp;done&nbsp;dynamically&nbsp;by&nbsp;looking&nbsp;up&nbsp;key&nbsp;names&nbsp;at&nbsp;runtime.
+
+Keystatic&nbsp;appears&nbsp;to&nbsp;mean&nbsp;hardcoding&nbsp;the&nbsp;key&nbsp;names&nbsp;and&nbsp;labels&nbsp;directly&nbsp;into&nbsp;the&nbsp;code&nbsp;for&nbsp;convenience.&nbsp;This&nbsp;avoids&nbsp;having&nbsp;to&nbsp;look&nbsp;up&nbsp;keys&nbsp;dynamically.&nbsp;It&nbsp;may&nbsp;improve&nbsp;performance&nbsp;slightly&nbsp;since&nbsp;the&nbsp;key&nbsp;information&nbsp;is&nbsp;embedded&nbsp;rather&nbsp;than&nbsp;retrieved.
+
+The&nbsp;code&nbsp;is&nbsp;likely&nbsp;reading&nbsp;specific&nbsp;SMC&nbsp;temperature,&nbsp;voltage&nbsp;or&nbsp;other&nbsp;sensor&nbsp;readings&nbsp;under&nbsp;hardcoded&nbsp;keys&nbsp;for&nbsp;monitoring&nbsp;or&nbsp;diagnostics&nbsp;purposes.&nbsp;Accessing&nbsp;the&nbsp;keys&nbsp;statically&nbsp;makes&nbsp;the&nbsp;code&nbsp;simpler&nbsp;since&nbsp;it&nbsp;doesn't&nbsp;need&nbsp;logic&nbsp;to&nbsp;determine&nbsp;key&nbsp;names&nbsp;or&nbsp;look&nbsp;them&nbsp;up.
+
+Let&nbsp;me&nbsp;know&nbsp;if&nbsp;any&nbsp;part&nbsp;needs&nbsp;more&nbsp;explanation&nbsp;or&nbsp;if&nbsp;you&nbsp;have&nbsp;additional&nbsp;questions!
