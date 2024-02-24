@@ -4,12 +4,12 @@ import { config, fields, collection, singleton } from '@keystatic/core';
 export default config({
   storage: {
     //kind: 'local',
-    kind: 'github'
-  },
-  repo: {
-    owner: 'aledebarba',
-    repo: 'keystatic-astro-cms',
-  },
+    kind: 'github',
+    repo: {
+        owner: 'aledebarba',
+        name: 'keystatic-astro-cms',
+    }
+    },
   collections: {
     posts: collection({
       label: 'Posts',
