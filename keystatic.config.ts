@@ -7,9 +7,9 @@ export default config({
     kind: 'github',
     repo: {
         owner: 'aledebarba',
-        name: 'keystatic-astro-cms',
+        name: 'cms-keystatic-astro',
     }
-    },
+},
   collections: {
     posts: collection({
       label: 'Posts',
