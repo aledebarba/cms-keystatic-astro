@@ -9,7 +9,7 @@ export default config({
         owner: 'aledebarba',
         name: 'cms-keystatic-astro',
     }
-},
+  },
   collections: {
     posts: collection({
       label: 'Posts',
@@ -67,8 +67,9 @@ export default config({
                 }),
                 heroImage: fields.image({
                     label: "Hero Image",
-                    directory: "public/images/hero",
-                }),
+                    directory: "public/images/home",
+                    publicPath: "/images/home/",
+                  }),
                 heroButton: fields.text({
                     label: "Hero Button Content",
                     defaultValue: "Learn More",
